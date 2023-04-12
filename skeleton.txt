@@ -1,0 +1,42 @@
+package com.mycompany.mainpasquetta;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author studente
+ */
+public class skeletondimasi {
+
+    public static void main(String[] args) {
+      
+        System.out.println("premi 3  per stampare la lista della spesa");
+       System.out.println( "per stampare la lista dei partecipanti con affianco scritto quanto ha speso e quanto deve avere o dare");
+       
+    }
+     Scanner in = new Scanner(System.in);
+     int scelta = in.nextInt();
+}
+}
+else if ( scelta  == 3 ){
+for(int=i;i<scelta;i++)
+
+	        System.out.println("Hai Stampare La Lista");
+
+{
+}
+{
+else if ( scelta  == 4 ){
+for(int=i;i )
+
+
+	        System.out.println("Hai Stampato La lista Partecipanti dei Debiti 0 Crediti");
+}
+}
+{
+
+else if ( scelta != 0 && scelta != 3 && r != 4){
+
+	        System.out.println("Il valore inserito non e corretto");
+}
+}
