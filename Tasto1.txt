@@ -1,0 +1,55 @@
+import java.util.Scanner;
+ public static Prodotto  addSpesa(){
+listaspesa[i]=Prodotto;
+Prodotto p=new Prodotto(nome,quantita,prezzoalkg);
+ Scanner sc=new Scanner(System.in);
+        System.out.println("");
+        String nome=sc.nextLine();
+        float quantita=sc.nextFloat();
+        float prezzoalkg=sc.nextFloat();
+return new Prodotto (nome,quantita,prezzoalkg);
+       
+
+
+
+}
+
+
+
+
+
+
+
+
+
+public class Mainn {
+
+    public static void main(String[] args) {
+        Scanner sc=new Scanner (System.in);
+     
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+         int scelta;
+        do{
+            System.out.println("Premi 0 per uscire, 1 per inserire la lista della spesa, 2  per inserire i partecipanti e per ogni partecipante inserire cosa compra, 3 per stampare la lista della spesa, 4per stampare la lista dei partecipanti con affianco scritto quanto ha speso e quanto deve avere o dare");
+            scelta=sc.nextInt();
+            if(scelta==1){
+                System.out.println("Quanti prodotti  vuoi inserire?");
+                int numero=sc.nextInt();
+                Prodotti p=new Prodotti(numero);
+                for(int i=0;i<numero;i++){
+                    p.upProdotto(addSpesa());
+                }
+       
+
+    }
+}
