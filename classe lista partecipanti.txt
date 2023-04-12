@@ -1,0 +1,17 @@
+public class listaPartecipanti {
+  private Partecipante array[];
+  private int i=0;
+  public listaPartecipanti(int grandezza){
+     array=new Partecipante[grandezza];
+  }
+  public void upPartecipante(Partecipante P ){
+      array[i]=P;
+      i++;
+  }
+
+  public Partecipante[]getarray(){
+return array;
+}
+}
+
+

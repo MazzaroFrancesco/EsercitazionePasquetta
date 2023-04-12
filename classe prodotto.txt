@@ -1,0 +1,14 @@
+public class Prodotti {
+private Prodotto array[];
+  private int i=0;
+  public Prodotti(int grandezza){
+     array=new Prodotto[grandezza];
+  }
+  public void upProdotto(Prodotto P ){
+      array[i]=P;
+      i++;
+      
+    }
+public Prodotti[]getarray(){
+return array;
+ }
